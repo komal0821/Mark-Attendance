@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Barlow:wght@300&family=Josefin+Sans:wght@100;200;300;400;500&family=Phudu&family=Work+Sans:wght@300&display=swap');
+
+.mark-attendance-container {
+    text-align: center;
+    margin-bottom: 60%;
+    padding: 3rem;
+    line-height: 1.5rem;
+    /* background-color: bisque; */
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+
+}
+
+.heading {
+    font-size: 1.5rem;
+    /* margin-bottom: 2rem; */
+    font-size: 50px;
+    color: navy;
+}
+
+.attendance-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid salmon;
+    background-color: bisque;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 5px 10px #888888;
+    border-radius: 10%;
+}
+
+.form-group {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 6rem;
+
+}
+
+.form-group.roll-no {
+    margin-bottom: 6rem;
+    /* Add space above Roll Number group */
+}
+
+.form-label {
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 17px;
+}
+
+.form-control {
+    padding: 0.5rem;
+    width: 100%;
+    border: 3px solid rgba(76, 63, 173, 0.44);
+    border-radius: 10px;
+}
+
+.mark-button {
+    background-color: #0c4f09;
+    color: white;
+    border: 3px solid saddlebrown;
+    padding: 0.5rem 3rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 20%;
+}
+
+.dropdown-1 {
+    /* margin-top: 20px; */
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.dropdown {
+    /* margin-top: 20px; */
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* .brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand img {
+    height: 5rem;
+    margin-bottom: 2%;
+} */
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 4rem;
+    margin-bottom: 2%;
+}
+
+h1 {
+    color: #bd5c08;
+    text-transform: uppercase;
+    font-size: 40px;
+}
